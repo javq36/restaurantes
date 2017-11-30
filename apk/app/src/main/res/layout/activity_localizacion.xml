@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mariavillamizar.restaurantes.localizacion">
+
+    <TextView
+        android:id="@+id/nombreR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre R"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="279dp"
+        android:layout_height="267dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="412dp" />
+</android.support.constraint.ConstraintLayout>
